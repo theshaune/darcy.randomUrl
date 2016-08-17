@@ -6,12 +6,10 @@
 	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<script>
 		$( document ).ready(function() {
-			var url =[
-				'http://example.com/1',
-				'http://example.com/2',
-				'http://example.com/3',
-				'http://example.com/4'
-			];
+			var url = [ 'https://www.surveymonkey.com/r/5LGH3Q3'
+				  , 'https://www.surveymonkey.com/r/5XGX2W7'
+				  , 'https://www.surveymonkey.com/r/5X6GMJJ'
+				  , 'https://www.surveymonkey.com/r/5X7RGKV' ] ;
 			var el = document.getElementById('link');
 			el.href = _.sample(url);
 		});
@@ -19,6 +17,6 @@
 </head>
 
 <body>
-  <h1><a id="link" href="" style="text-align:center;">Please Click here to take the test</a></a></h1>
+  <h1 style="text-align:center;"><a id="link" href="" >Please Click here to take the test</a></a></h1>
 </body>
 </html>
